@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#ffffff"/>
+  <text x="360" y="36" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#123194">H1. Список к походу: Recall@10</text>
+  <text x="360" y="58" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="12" fill="#444444">«обычно берут» против модели с остатком и расходом</text>
+  <!-- axes -->
+  <line x1="80" y1="340" x2="680" y2="340" stroke="#333" stroke-width="1"/>
+  <line x1="80" y1="340" x2="80" y2="80" stroke="#333" stroke-width="1"/>
+  <!-- y ticks 0, 0.25, 0.5, 0.75 -->
+  <text x="72" y="344" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="11" fill="#444">0</text>
+  <text x="72" y="279" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="11" fill="#444">0,25</text>
+  <text x="72" y="214" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="11" fill="#444">0,50</text>
+  <text x="72" y="149" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="11" fill="#444">0,75</text>
+  <line x1="80" y1="275" x2="680" y2="275" stroke="#eee"/>
+  <line x1="80" y1="210" x2="680" y2="210" stroke="#eee"/>
+  <line x1="80" y1="145" x2="680" y2="145" stroke="#eee"/>
+  <!-- 200 families: freq 0.494 -> h=128.44; cat 0.631 -> h=164.06; y = 340 - v*260 -->
+  <!-- 0.494*260=128.44; 0.631*260=164.06; 0.496*260=128.96; 0.648*260=168.48 -->
+  <rect x="160" y="211.6" width="70" height="128.4" fill="#9aa4b2"/>
+  <rect x="240" y="175.9" width="70" height="164.1" fill="#123194"/>
+  <text x="195" y="203" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="12" fill="#333">0,494</text>
+  <text x="275" y="167" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="12" fill="#123194">0,631</text>
+  <text x="235" y="362" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#333">200 семей</text>
+  <text x="235" y="378" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="11" fill="#666">+0,137</text>
+  <!-- 500 families -->
+  <rect x="430" y="211.0" width="70" height="129.0" fill="#9aa4b2"/>
+  <rect x="510" y="171.5" width="70" height="168.5" fill="#123194"/>
+  <text x="465" y="203" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="12" fill="#333">0,496</text>
+  <text x="545" y="163" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="12" fill="#123194">0,648</text>
+  <text x="505" y="362" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#333">500 семей</text>
+  <text x="505" y="378" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="11" fill="#666">+0,152</text>
+  <!-- legend -->
+  <rect x="480" y="88" width="14" height="14" fill="#9aa4b2"/>
+  <text x="500" y="100" font-family="DejaVu Sans, sans-serif" font-size="12" fill="#333">обычно берут</text>
+  <rect x="480" y="110" width="14" height="14" fill="#123194"/>
+  <text x="500" y="122" font-family="DejaVu Sans, sans-serif" font-size="12" fill="#333">модель с остатком</text>
+  <text x="80" y="408" font-family="DejaVu Sans, sans-serif" font-size="10" fill="#888">Порог подтверждения: +0,10. На чеках Ta Feng без остатка прирост 0,07 — порог не взят.</text>
+</svg>

@@ -1,0 +1,12 @@
+*.sqlite
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*:Zone.Identifier
+~$*
+*.pdf
+*.pptx
+*.docx
+Backlog/
+build_individual_pptx.py

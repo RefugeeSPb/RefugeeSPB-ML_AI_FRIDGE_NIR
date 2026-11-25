@@ -1,0 +1,6 @@
+name,dimension,to_base
+г,mass,1
+кг,mass,1000
+мл,volume,1
+л,volume,1000
+шт,count,1
